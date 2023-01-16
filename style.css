@@ -1,0 +1,41 @@
+.principal-div {
+  display: flex;
+  flex-direction: column; /* this positions the elements in a column, so the top div will be on top */
+  border: 1px solid black;
+  width: 420px;
+  height: 420px;
+}
+
+.screen {
+  /* styling for the top div */
+  border: 1px solid black;
+  padding: 20px;
+  margin:10px;
+  height: 70px;
+
+}
+
+.bottom-divs {
+  display: flex;
+  flex-direction: row; /* this positions the bottom divs next to each other */
+  margin:10px;
+}
+
+.input, .operations{
+  /* styling for the bottom divs */
+}
+
+.number-button{
+
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+}
+
+.ops-button{
+
+  width: 70px;
+  height: 70px;
+  margin: 5px;
+
+}
