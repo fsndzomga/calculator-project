@@ -1,21 +1,22 @@
 .principal-div {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
+  border: 2px solid black;
   width: 420px;
   height: 450px;
   background-color: lightskyblue;
+  border-radius: 6px;
 }
 
 .screen {
-  /* styling for the top div */
-  border: 1px solid black;
-  padding: 20px;
-  margin:10px;
-  height: 70px;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 7px;
+  height: 83px;
   text-align: end;
   background-color: white;
-
+  font-size: 30px;
+  border-radius: 6px;
 }
 
 .bottom-divs {
@@ -43,5 +44,20 @@
 
 #clear {
   height: auto;
-  width: 78%;
+  width: 82.5%;
+}
+
+#backspace {
+  height: auto;
+  width: 70px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  margin: 95px auto;
 }
