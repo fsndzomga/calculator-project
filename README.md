@@ -19,7 +19,7 @@ To clear the input, click the CLEAR button.
 
 Code
 
-The JavaScript code for this calculator project is included in the file app.js. The code defines four functions for performing the arithmetic operations and an additional function for handling the operation based on the operator input. The code also includes an event listener to listen for button clicks and update the calculator display accordingly.
+The JavaScript code for this calculator project is included in the file index.js. The code defines four functions for performing the arithmetic operations and an additional function for handling the operation based on the operator input. The code also includes an event listener to listen for button clicks and update the calculator display accordingly.
 
 Contributing
 
